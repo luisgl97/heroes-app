@@ -10,7 +10,7 @@ export const HeroCard = ({
   buscar
 }) => {
   // const heroImageUrl = `/assets/heroes/${id}.jpg`;
-  const heroImageUrl = `./assets/heroes/${id}.jpg`
+  const heroImageUrl = `../../../assets/heroes/${id}.jpg`
   return (
     <div className={ (!buscar) ? "col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12" : "col-xl-6 my-2"}>
       <div className="card h-100 text-white bg-dark justify-content-center">
