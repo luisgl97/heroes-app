@@ -28,7 +28,7 @@ export const HeroPage = () => {
             <li className="list-group-item"><b>Publisher: </b>{hero.publisher}</li>
             <li className="list-group-item"><b>Alter ego: </b>{hero.first_appearance}</li>
           </ul>
-          <h5 className="mt-3">Characters</h5>
+          <h5 className="mt-3"><span>Characters</span></h5>
           <p>{hero.characters}</p>
           <button className="btn btn-outline-primary" onClick={onNavigateBack}>
             Regresar
