@@ -12,7 +12,7 @@ export const SearchPage = () => {
   const location = useLocation();
 
   const { q = "" } = queryString.parse(location.search);
-
+  console.log(q)
   const heroes = getHeroesByName(q);
 
   const showSearch = q.length === 0;
